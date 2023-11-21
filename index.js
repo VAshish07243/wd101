@@ -39,7 +39,6 @@ const displayEntries = () => {
         const row = `<tr>${nameCell} ${emailCell} ${passwordCell} ${dobCell} ${t_cCell}</tr>`;
         return row;
     }).join("\n");
-displayEntries();
 
     const table = `<table class="table-auto w-full borde border-collapse border-gray-300"">
         <tr>
